@@ -1,14 +1,159 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <title>Snehal Khandelwal</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="A personal portfolio website" name="description">
+
+    <!-- Favicon -->
+    <link rel="icon" href="static/img/s3.png">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="static/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="static/lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link href="static/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="static/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link rel="stylesheet" href="static/css/styles.css">
 </head>
+
 <body>
-    <h1>Snehal Khandelwal</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, architecto sit laborum temporibus nesciunt non dolores, ab autem corrupti consequuntur modi, rerum quis! Perspiciatis delectus placeat excepturi atque corporis perferendis?</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, architecto sit laborum temporibus nesciunt non dolores, ab autem corrupti consequuntur modi, rerum quis! Perspiciatis delectus placeat excepturi atque corporis perferendis?</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, architecto sit laborum temporibus nesciunt non dolores, ab autem corrupti consequuntur modi, rerum quis! Perspiciatis delectus placeat excepturi atque corporis perferendis?</p>
+
+    <!-- Nav Bar Start -->
+    <div class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">Snehal<span>Khandelwal</span></a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto">
+                    <a href="/index.html" class="nav-item nav-link active">Home</a>
+                    <a href="/about.html" class="nav-item nav-link">About Me</a>
+                    <a href="/contact.html" class="nav-item nav-link">Contact Me</a>
+                    <!-- <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
+                        <div class="dropdown-menu">
+                            <a href="single.html" class="dropdown-item">Blog Detail</a>
+                            <a href="single.html" class="dropdown-item">Bo not click</a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Nav Bar End -->
+
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+        <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+            <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+            <div class="carousel-inner" role="listbox">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
+                    <div class="carousel-container">
+                        <div class="container">
+                            <h2 class="animate__animated animate__fadeInDown">Hi i'm <span>Snehal</span></h2>
+                            <p class="animate__animated animate__fadeInUp col-md-6">A UI/UX Designer, with over one year of industry experience
+                            designing a wide range of mobile and web applications for multinational corporations.   
+                            </p>
+                            <a href="#home" class="btn-get-started animate__animated animate__fadeInUp scrollto">Case Studies</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            
+
+        </div>
+    </section><!-- End Hero -->
+
+    <main id="main">
+
+
+        <!-- Discount Start -->
+        <div class="discount wow zoomIn" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>PET SUPPLIES DISCOUNT</p>
+                    <h2>Get <span>30%</span> Discount for all Pet Supplies</h2>
+                </div>
+                <div class="container discount-text">
+                    <p>
+                        Book our monthly subscription and avail 30% discount on our whole range of pet services
+                        including
+                        two pet spas a pet grooming kit and pet food all for an entire month
+                    </p>
+                    <a class="btn">Join Now</a>
+                </div>
+            </div>
+        </div>
+        <!-- Discount End -->
+
+        <main>
+            <section data-index="0" id="home">
+                <h2>Project 1</h2>
+            </section>
+            <section data-index="1" id="project">
+                <h2>Project 2</h2>
+            </section>
+            <section data-index="2" id="contact">
+                <h2>Contact</h2>
+            </section>
+        </main>
+
+        <!-- Bottom NAV BAR -->
+        <div class="navbar-container">
+            <ul>
+                <li class="nav-link active-link">
+                    <a href="#home">Project 1
+                    </a>
+                    <div class="underline"></div>
+                </li>
+                <li class="nav-link">
+                    <a href="#project">Project 2</a>
+                    <div class="underline"></div>
+                </li>
+
+                <li class="nav-link">
+                    <a href="#contact">Contact</a>
+                    <div class="underline"></div>
+                </li>
+            </ul>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="static/lib/easing/easing.min.js"></script>
+        <script src="static/lib/wow/wow.min.js"></script>
+        <script src="static/lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="static/lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="static/lib/lightbox/js/lightbox.min.js"></script>
+
+
+
+        <!-- Template Javascript -->
+        <script src="static/js/main.js"></script>
 </body>
+
 </html>
