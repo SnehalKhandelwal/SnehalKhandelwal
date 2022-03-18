@@ -28,6 +28,23 @@
 </head>
 
 <body>
+    <style>
+        .left {
+            position: relative;
+            width: 100%;
+            padding: 110px 0;
+            background: url(static/img/snehal_profile.png);
+            background-position: right;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        @media (max-width: 767.98px) {
+            .left {
+                display: none;
+            }
+        }
+    </style>
 
     <!-- Nav Bar Start -->
     <div class="navbar navbar-expand-lg bg-dark navbar-dark">
@@ -39,10 +56,10 @@
 
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto">
-                    <a href="/index.html" class="nav-item nav-link active">Home</a>
-                    <a href="/about.html" class="nav-item nav-link">About Me</a>
-                    <a href="/contact.html" class="nav-item nav-link">Contact Me</a>
-                    <a href="/static/Snehal_Resume.pdf" download class="nav-item nav-link btn1">Download Resume</a>
+                    <a href="/SnehalKhandelwal/" class="nav-item nav-link active">Home</a>
+                    <a href="/SnehalKhandelwal/about.html" class="nav-item nav-link">About Me</a>
+                    <a href="/SnehalKhandelwal/contact.html" class="nav-item nav-link">Contact Me</a>
+                    <a href="static/Snehal_Resume.pdf" download class="nav-item nav-link btn1">Download Resume</a>
                     <!-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
                         <div class="dropdown-menu">
@@ -68,19 +85,18 @@
                 <!-- Slide 1 -->
                 <div class="carousel-item active">
                     <div class="carousel-container">
-                        <div class="container">
+                        <!-- <div class="left"> -->
+                        <div class="container col-md-6">
                             <h2 class="animate__animated animate__fadeInDown">Snehal <span>Khandelwal</span></h2>
                             <p class="animate__animated animate__fadeInUp col-md-12">I am a user-centered,
                                 problem-solving,
-                                tea-drinking UX designer. I try to get into the user’s shoes, sandals, or slippers and
+                                tea-drinking UX designer. I try to get into the user’s shoes, sandals, or slippers
+                                and
                                 think!
-                                I come from an architecture background. Having studied and practiced Architecture for
-                                more than 8 years,
-                                I have always been associated with challenges to understand people's needs more
-                                profoundly and empathize
-                                with them.
                             </p>
-                            <a href="/static/Snehal_Resume.pdf" download class="btn-get-started animate__animated animate__fadeInUp scrollto">Download Resume</a>
+                            <a href="static/Snehal_Resume.pdf" download
+                                class="btn-get-started animate__animated animate__fadeInUp scrollto">Download
+                                Resume</a>
                             <div>
                                 <a href="https://www.linkedin.com/in/snehal-khandelwal-325a08132/"
                                     class="social animate__animated animate__fadeInUp scrollto"><img
@@ -94,10 +110,107 @@
                 </div>
             </div>
         </div>
+        </div>
     </section><!-- End Hero -->
 
-    <main id="main">
 
+    <!-- About Start -->
+    <div class="about1 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-6">
+                    <div class="about-img">
+                        <img src="static/img/snehal_about.png" alt="Image">
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 about-container">
+                    <div class="section-header text-center">
+                        <p>About Me</p>
+                        <h2>Snehal Khandelwal</h2>
+
+                    </div>
+                    <div class="about-text">
+                        <p>
+                            I come from an architecture background. Having studied and practiced Architecture
+                            for
+                            more than 8 years,
+                            I have always been associated with challenges to understand people's needs more
+                            profoundly and empathize
+                            with them.
+                        </p>
+                        <a class="btn" href="">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- About End -->
+
+    <!-- Tineline Start -->
+    <section id="timelinec">
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-8 offset-md-1 timelinew">
+                    <h4>Work Experience</h4>
+                    <ul class="timeline timelinewu">
+                        <li>
+                            <a target="_blank" href="https://www.totoprayogo.com/#">New Web Design</a>
+                            <a href="#" class="float-right">21 March, 2022</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non
+                                nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis
+                                sagittis ligula in sodales vehicula....</p>
+                        </li>
+                        <li>
+                            <a href="#">21 000 Job Seekers</a>
+                            <a href="#" class="float-right">4 March, 2022</a>
+                            <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque
+                                felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+                        </li>
+                        <li>
+                            <a href="#">Awesome Employers</a>
+                            <a href="#" class="float-right">1 April, 2022</a>
+                            <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae
+                                nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-8 offset-md-1 timelinew">
+                    <h4>Education</h4>
+                    <ul class="timeline timelinewu">
+                        <li>
+                            <a target="_blank" href="https://www.totoprayogo.com/#">New Web Design</a>
+                            <a href="#" class="float-right">21 March, 2022</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non
+                                nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis
+                                sagittis ligula in sodales vehicula....</p>
+                        </li>
+                        <li>
+                            <a href="#">21 000 Job Seekers</a>
+                            <a href="#" class="float-right">4 March, 2022</a>
+                            <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque
+                                felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+                        </li>
+                        <li>
+                            <a href="#">Awesome Employers</a>
+                            <a href="#" class="float-right">1 April, 2022</a>
+                            <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae
+                                nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Tineline End -->
+
+    <main id="main">
+        <!-- Bottom Nav -->
         <nav>
             <div class="container">
                 <ul>
@@ -117,6 +230,75 @@
             </div>
         </div>
         <!-- Discount End -->
+        <!-- team Start -->
+        <!-- old service start -->
+        <div class="team">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <h2>Case Studies</h2>
+                </div>
+                <!-- justify-content-between -->
+                <div class="row team-row">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="static/img/snehal_card.png" alt="Image">
+                                <div class="team-social">
+                                    <a href="">Project 1 : Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        Veritatis dignissimos odio dolor fugit alias hic facilis,
+                                        ducimus quo iure vitae a provident nostrum mollitia, unde pariatur quam
+                                        recusandae placeat ullam.</i></a>
+
+                                </div>
+                            </div>
+                            <div class="team-text">
+                                <h2>Project 1</h2>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="static/img/snehal_card.png" alt="Image">
+                                <div class="team-social">
+                                    <a href="">Project 2 : Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        Veritatis dignissimos odio dolor fugit alias hic facilis,
+                                        ducimus quo iure vitae a provident nostrum mollitia, unde pariatur quam
+                                        recusandae placeat ullam.
+                                        </i></a>
+
+                                </div>
+                            </div>
+                            <div class="team-text">
+                                <h2>Project 2</h2>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="static/img/snehal_card.png" alt="Image">
+                                <div class="team-social">
+                                    <a href="">Project 3 : Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        Veritatis dignissimos odio dolor fugit alias hic facilis,
+                                        ducimus quo iure vitae a provident nostrum mollitia, unde pariatur quam
+                                        recusandae placeat ullam.
+                                        </i></a>
+
+                                </div>
+                            </div>
+                            <div class="team-text">
+                                <h2>Project 3</h2>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- team End -->
         <section id="about">
             <h1>Project 2</h1>
         </section>
